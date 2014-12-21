@@ -1,10 +1,11 @@
 OeScript
 ========
 
-OeScript Tuple Space - Distributed, Asynchronous, Scalable
+###OeScript Tuple Space - Distributed, Asynchronous, Scalable
 
+_NOTE: no working code here yet, watch the project as work progresses starting Jan 1, 2015_
 
-place holder repository for an experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software
+An experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software.
 
 Notes about the library and architecture are going to be posted as [issues](https://github.com/navicore/OeScript/issues), at least initially.
 
