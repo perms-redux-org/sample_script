@@ -12,7 +12,7 @@ An experimental re-implementation of OeScript using Scala and various nosql and 
 
 Notes about the library and architecture desicions are posted as [issues][decisions-blog] for now.
 
-For quick-start, see [below](#quck-start).
+For quick-start, see [below](#quick-start).
 
 More extensive documentation, when it exists, will be in the [github wiki][oescript-wiki].
 
