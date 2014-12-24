@@ -12,12 +12,116 @@ An experimental re-implementation of OeScript using Scala and various nosql and 
 
 Notes about the library and architecture desicions are posted as [issues][decisions-blog] for now.
 
-For quick-start, see [below](#quck-start).
+For quick-start, see [below](#quckstart).
 
 More extensive documentation, when it exists, will be in the [github wiki][oescript-wiki].
-
-[quick-start]: /qs "Quick Start"
-### Quick Start [quick-start] ##
+1. `./sbt`
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. `./sbt`
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. `./sbt`
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. `./sbt`
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. `./sbt`
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+### Quick Start
 
 1. `./sbt`
-
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
+1. "x"
+2. 
