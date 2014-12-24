@@ -15,6 +15,9 @@ Notes about the library and architecture desicions are posted as [issues][decisi
 For quick-start, see [below](#quckstart).
 
 More extensive documentation, when it exists, will be in the [github wiki][oescript-wiki].
+
+# what 
+
 1. `./sbt`
 1. "x"
 1. "x"
@@ -105,6 +108,7 @@ More extensive documentation, when it exists, will be in the [github wiki][oescr
 2. 
 1. "x"
 2. 
+
 ### Quick Start
 
 1. `./sbt`
