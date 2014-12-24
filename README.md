@@ -12,3 +12,8 @@ Notes about the library and architecture are going to be posted as [issues](http
 Quick-start instructions will be in this README.md file, see below.
 
 More extensive documentation, when it exists, will be in the [github wiki](https://github.com/navicore/oescript/wiki)
+
+### Quick Start
+
+1. `./sbt`
+
