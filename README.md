@@ -20,3 +20,11 @@ More extensive documentation, when it exists, will be in the [github wiki][oescr
 
 1. `./sbt`
 
+
+### Other
+
+gem install travis
+travis login
+
+[![Coverage Status](https://img.shields.io/coveralls/navicore/OeScript.svg)](https://coveralls.io/r/navicore/OeScript)
+
