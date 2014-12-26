@@ -6,8 +6,11 @@ jdk:
 script:
 - sbt compile test
 sudo: false
-after_success: -> test "${TRAVIS_PULL_REQUEST}" = 'false' && sh "$TRAVIS_BUILD_DIR/.travis.credentials.sh"
-  && sbt publish
+after_success: 
+  -> 
+    test "${TRAVIS_PULL_REQUEST}" = 'false' && 
+    sh "$TRAVIS_BUILD_DIR/.travis.credentials.sh" && 
+    sbt publish
 env:
   global:
   - secure: Nx0He2b+Dq+aNAGXmBABEbHdHW9uws0dw6tErdFZKiaArDvZveyNPAhYpqYU+3iXm4vfyjaE3dt9IQIGqyj8Qcnd1JNokVsqsSsJHg4WftZNkdlWfpFxoUsfyyofMjdQJuwrjd2F/mhiGVIkwoVxiovsqEtAtuTBetYrrXDp9UU=
