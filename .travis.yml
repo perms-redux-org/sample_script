@@ -7,7 +7,7 @@ script:
 - sbt compile test
 sudo: false
 after_success: 
-  -> 
+  - >
     test "${TRAVIS_PULL_REQUEST}" = 'false' && 
     sh "$TRAVIS_BUILD_DIR/.travis.credentials.sh" && 
     sbt publish
