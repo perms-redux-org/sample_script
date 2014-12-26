@@ -1,10 +1,11 @@
 language: scala
 scala:
-    - 2.11.4
+- 2.11.4
 jdk:
-    - openjdk7
-
+- openjdk7
 script: sbt ++$TRAVIS_SCALA_VERSION compile test
-
 sudo: false
-
+env:
+  global:
+  - secure: CVVvtj/71g4Awl+8FMN+TNa1S23s3kZKHzWE20LtbZ7VO8ODiDzebP7EGUQaa1eU4oBtHMeZ0WPOVhEDmBTBDkgzVXYSjqVkmBtPNXhzbwGfkVVxoK890QMaDifkxEEev/8Q8IFIj8h6BTZvdICEEYuWOB+qxXQddDfmp+VHtZc=
+  - secure: cDyTFJb65V6Po/K1KPTEFu2/a0zqAxxk+73NxhdOBpO8+LxO2aZJ5T4TqN+lPbbugCYtmFvexo0cM4yKFtT8fSxEqD2z4BksNLI0krkPFzUErWuDtkNgtI9N6hKlcFmUCu6YeHiu4osWkcZr1fypLPFsSFgPCZvjNF/L1PFYz2Y=
