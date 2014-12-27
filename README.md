@@ -23,12 +23,8 @@ More extensive documentation, when it exists, will be in the [github wiki][oescr
 
 ### Other
 
-gem install travis
-travis login
+`gem install travis`
+`travis login`
 
-[![Coverage Status](https://img.shields.io/coveralls/navicore/OeScript.svg)](https://coveralls.io/r/navicore/OeScript)
-
-
-<a href='https://coveralls.io/r/navicore/OeScript'><img src='https://coveralls.io/repos/navicore/OeScript/badge.png' alt='Coverage Status' /></a>
-
+[ ![Download](https://api.bintray.com/packages/navicore/maven/oescript-core/images/download.svg) ](https://bintray.com/navicore/maven/oescript-core/_latestVersion)
 
