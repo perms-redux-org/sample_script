@@ -1,4 +1,4 @@
-name := "OeScript Core"
+name := "oescript-core"
 
 version      := Common.version
 scalaVersion := Common.scalaVersion

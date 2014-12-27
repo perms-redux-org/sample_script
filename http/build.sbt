@@ -1,4 +1,4 @@
-name := "OeScript HTTP"
+name := "oescript-http"
 
 version      := Common.version
 scalaVersion := Common.scalaVersion
