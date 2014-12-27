@@ -12,13 +12,15 @@ lazy val root = (project in file(".")).
 lazy val core = (project in file("core")).
   settings (
     libraryDependencies += logging_lib,
-    libraryDependencies += test_lib
+    libraryDependencies += test_lib,
+    wartremoverErrors ++= Warts.all
   )
 
 lazy val http = (project in file("http")).
   settings (
     libraryDependencies += logging_lib,
-    libraryDependencies += test_lib
+    libraryDependencies += test_lib,
+    wartremoverErrors ++= Warts.all
   ).
   dependsOn(core)
 
