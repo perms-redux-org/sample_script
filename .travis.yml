@@ -10,6 +10,7 @@ after_success:
   - >
     test "${TRAVIS_PULL_REQUEST}" = 'false' && 
     sh "$TRAVIS_BUILD_DIR/.travis.credentials.sh" && 
+    sh "$TRAVIS_BUILD_DIR/.travis.istagged.sh" && 
     sbt publish
 env:
   global:
