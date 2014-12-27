@@ -1,4 +1,10 @@
 language: scala
+
+# whitelist
+branches:
+  only:
+  - master
+
 scala:
 - 2.11.4
 jdk:
