@@ -4,6 +4,7 @@ language: scala
 branches:
   only:
   - master
+  - /^v.*$/
 
 scala:
 - 2.11.4
