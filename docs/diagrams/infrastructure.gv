@@ -1,0 +1,47 @@
+/*
+* @command = neato
+*
+*/
+digraph G {
+  labelloc="t"
+  //label = "OeScript Project"
+  //size="8.0,10.5"
+  //size="2.7,3"
+  //size="7"
+  //center=true
+  //ratio=compress
+  //nodesep=0.2;
+  compound=true;
+  //rankdir = LR
+  subgraph cluster0 {
+    labelloc="b"
+    label = "Travis CI"
+    sbt[label="SBT", shape="oval", color="goldenrod"];
+    scalaTest[label="Scala Test", shape="oval", color="goldenrod"];
+    source[label="Source", shape="box"];
+  }
+  subgraph cluster1 {
+    labelloc="b"
+    label = "Bintray"
+    repoCore[label="oescript-core repo", shape="oval", color="lightblue", style="filled"];
+    repoHttp[label="oescript-http repo", shape="oval", color="lightblue", style="filled"];
+  }
+  subgraph cluster2 {
+    labelloc="t"
+    label = "GitHub"
+    srcRepo[label="OeScript Src Repo", shape="oval", color="lightblue", style="filled"];
+  }
+  subgraph cluster3 {
+    labelloc="t"
+    label = "Docker Hub"
+    style = "dotted"
+    dockerRepo[label="OeScript Repo", shape="oval", color="lightblue", style=""];
+  }
+  srcRepo -> source
+  source -> sbt
+  sbt -> repoCore
+  sbt -> repoHttp
+  sbt -> scalaTest
+  sbt -> dockerRepo[style="dotted", label="TODO"]
+}
+

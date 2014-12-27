@@ -1,0 +1,4 @@
+#!/bin/sh
+
+dot -Tpng infrastructure.gv -o tmp/infrastructure.png
+
