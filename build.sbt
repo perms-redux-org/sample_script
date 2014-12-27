@@ -1,3 +1,7 @@
+import com.typesafe.sbt.SbtGit._
+versionWithGit
+git.baseVersion := "0.2"
+
 val logging_lib = "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
 
 val test_lib = "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
