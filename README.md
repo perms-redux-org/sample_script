@@ -1,4 +1,5 @@
 [ ![Download](https://api.bintray.com/packages/navicore/maven/oescript_core/images/download.svg) ](https://bintray.com/navicore/maven/oescript_core/_latestVersion)
+
 [![Build Status](https://travis-ci.org/navicore/OeScript.svg?branch=master)](https://travis-ci.org/navicore/OeScript)
 
 OeScript
