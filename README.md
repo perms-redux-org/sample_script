@@ -27,8 +27,10 @@ More extensive documentation, when it exists, will be in the [github wiki][oescr
 
 ### Other
 
-`gem install travis`
-`travis login`
+```
+gem install travis
+travis login
+```
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
