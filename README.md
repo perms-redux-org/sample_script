@@ -18,7 +18,7 @@ Notes about the library and architecture desicions are posted as [issues][decisi
 
 For quick-start, see [below](#quick-start).
 
-More extensive documentation, when it exists, will be in the [github wiki][oescript-wiki].
+More extensive documentation, when it exists, will be in the [OeScript Wiki][oescript-wiki].
 
 ### Quick Start
 
