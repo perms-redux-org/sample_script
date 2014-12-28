@@ -17,10 +17,11 @@ digraph G {
     labelloc="t"
     label = "Tuplespace"
     color = "blue"
-    obj1[label="object (a,b,c)", shape="oval", color="goldenrod"];
-    obj2[label="object (a,b,c)", shape="oval", color="goldenrod"];
-    obj3[label="object (a,b,DDD)", shape="oval", color="goldenrod", style="filled"];
-    obj4[label="object (a,c,EEE)", shape="oval", color="goldenrod", style="filled"];
+    obj1[label="(a,b,c)", shape="oval", color="goldenrod"];
+    obj2[label="(a,b,c)", shape="oval", color="goldenrod"];
+    obj3[label="(a,b,DDD)", shape="oval", color="goldenrod", style="filled"];
+    obj4[label="(a,c,EEE)", shape="oval", color="goldenrod", style="filled"];
+    obj5[label="(a,b,d)", shape="oval", color="goldenrod"];
   }
   subgraph cluster1 {
     labelloc="t"
