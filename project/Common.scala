@@ -3,6 +3,7 @@ import Keys._
 
 object Common {
     def organization = "onextent"
+    def repo_org = "navicore"
     def buildNum = sys.env.getOrElse("TRAVIS_BUILD_NUMBER", default = "0")
     //def version = s"0.1.$buildNum"
     def scalaVersion = "2.11.4"
