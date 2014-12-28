@@ -1,0 +1,28 @@
+/*
+* @command = neato
+*
+*/
+digraph G {
+  labelloc="t"
+  //label = "OeScript Project"
+  //size="8.0,10.5"
+  //size="2.7,3"
+  //size="7"
+  center=true
+  //ratio=compress
+  //nodesep=0.2;
+  compound=true;
+  rankdir = LR
+  subgraph cluster0 {
+    labelloc="t"
+    label = "Tuplespace"
+    obj1[label="object 1", shape="oval", color="goldenrod"];
+    obj2[label="object 2", shape="oval", color="goldenrod"];
+    obj3[label="object 3", shape="oval", color="lightblue"];
+  }
+  process1[label="networked\nprocess 1", shape="box", color="lightblue"];
+  process2[label="networked\nprocess 2", shape="box", color="lightblue"];
+  process1 -> obj3[label="write"]
+  obj3 -> process2[label="take"]
+}
+
