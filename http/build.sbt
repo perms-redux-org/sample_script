@@ -1,10 +1,13 @@
+import Dependencies._
+
 name := "oescript_http"
 
 scalaVersion := Common.scalaVersion
 licenses     += Common.license
 seq(bintraySettings:_*)
 
-libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
+libraryDependencies ++= core_deps
+wartremoverErrors ++= Warts.all
 
 import DockerKeys._
 import sbtdocker.mutable.Dockerfile

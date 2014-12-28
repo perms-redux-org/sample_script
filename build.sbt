@@ -2,10 +2,6 @@ import com.typesafe.sbt.SbtGit._
 versionWithGit
 git.baseVersion := "0.1"
 
-val logging_lib = "com.typesafe.scala-logging" %% "scala-logging" % "3.1.0"
-
-val test_lib = "org.scalatest" % "scalatest_2.11" % "2.2.1" % "test"
-
 lazy val root = (project in file(".")).
   settings (
     publish := { },
@@ -13,18 +9,7 @@ lazy val root = (project in file(".")).
   ).
   aggregate(core, http)
 
-lazy val core = (project in file("core")).
-  settings (
-    libraryDependencies += logging_lib,
-    libraryDependencies += test_lib,
-    wartremoverErrors ++= Warts.all
-  )
-
+lazy val core = (project in file("core"))
 lazy val http = (project in file("http")).
-  settings (
-    libraryDependencies += logging_lib,
-    libraryDependencies += test_lib,
-    wartremoverErrors ++= Warts.all
-  ).
   dependsOn(core)
 
