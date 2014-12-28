@@ -21,13 +21,13 @@ digraph G {
     obj2[label="(a,b,c)", shape="oval", color="goldenrod"];
     obj3[label="(a,b,DDD)", shape="oval", color="goldenrod", style="filled"];
     obj4[label="(a,c,EEE)", shape="oval", color="goldenrod", style="filled"];
-    obj5[label="(a,b,d)", shape="oval", color="goldenrod"];
+    obj5[label="(a,d,EEE)", shape="oval", color="goldenrod"];
   }
   subgraph cluster1 {
     labelloc="t"
     color = "blue"
     label = "networked\nprocess 1"
-    txn1[label="txn 1", shape="box", color="green"];
+    txn1[label="txn 1", shape="box", color="goldenrod"];
   }
   process2[label="networked\nprocess 2", shape="box", color="blue"];
   obj3 -> txn1[label="take (_,_,DDD)"]
