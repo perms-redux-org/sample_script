@@ -8,13 +8,13 @@ digraph G {
   //size="8.0,10.5"
   //size="2.7,3"
   //size="7"
-  //center=true
+  center=true
   //ratio=compress
   //nodesep=0.2;
   compound=true;
-  //rankdir = LR
+  rankdir = LR
   subgraph cluster0 {
-    labelloc="b"
+    labelloc="t"
     label = "Travis CI"
     sbt[label="SBT", shape="oval", color="goldenrod"];
     scalaTest[label="Scala Test", shape="oval", color="goldenrod"];
@@ -30,6 +30,8 @@ digraph G {
     labelloc="t"
     label = "GitHub"
     srcRepo[label="OeScript Src Repo", shape="oval", color="lightblue", style="filled"];
+    issues[label="OeScript Issues", shape="oval", color="lightblue", style=""];
+    wiki[label="OeScript Wiki", shape="oval", color="lightblue", style=""];
   }
   subgraph cluster3 {
     labelloc="b"
