@@ -32,16 +32,16 @@ digraph G {
     srcRepo[label="OeScript Src Repo", shape="oval", color="lightblue", style="filled"];
   }
   subgraph cluster3 {
-    labelloc="t"
+    labelloc="b"
     label = "Docker Hub"
     style = "dotted"
-    dockerRepo[label="OeScript Repo", shape="oval", color="lightblue", style=""];
+    dockerRepo[label="OeScript Repo", shape="oval", color="lightblue", style="filled"];
   }
   srcRepo -> source
   source -> sbt
   sbt -> repoCore
   sbt -> repoHttp
   sbt -> scalaTest
-  sbt -> dockerRepo[style="dotted", label="TODO"]
+  sbt -> dockerRepo[style="dotted"]
 }
 
