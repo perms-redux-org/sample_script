@@ -16,13 +16,21 @@ digraph G {
   subgraph cluster0 {
     labelloc="t"
     label = "Tuplespace"
-    obj1[label="object 1", shape="oval", color="goldenrod"];
-    obj2[label="object 2", shape="oval", color="goldenrod"];
-    obj3[label="object 3", shape="oval", color="lightblue"];
+    color = "blue"
+    obj1[label="object (a,b,c)", shape="oval", color="goldenrod"];
+    obj2[label="object (a,b,c)", shape="oval", color="goldenrod"];
+    obj3[label="object (a,b,DDD)", shape="oval", color="goldenrod", style="filled"];
+    obj4[label="object (a,c,EEE)", shape="oval", color="goldenrod", style="filled"];
   }
-  process1[label="networked\nprocess 1", shape="box", color="lightblue"];
-  process2[label="networked\nprocess 2", shape="box", color="lightblue"];
-  process1 -> obj3[label="write"]
-  obj3 -> process2[label="take"]
+  subgraph cluster1 {
+    labelloc="t"
+    color = "blue"
+    label = "networked\nprocess 1"
+    txn1[label="txn 1", shape="box", color="green"];
+  }
+  process2[label="networked\nprocess 2", shape="box", color="blue"];
+  obj3 -> txn1[label="take (_,_,DDD)"]
+  txn1 -> obj4[label="write (a,c,EEE)"]
+  obj4 -> process2[label="read (a,c,_)"]
 }
 
