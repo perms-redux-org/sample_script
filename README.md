@@ -26,7 +26,9 @@ OeScript
  
 An experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software.
 
-Notes about the library and architecture desicions are posted as [issues][decisions-blog] for now.
+Notes about the library and architecture desicions are posted as [issues][decisions-blog].
+
+Documentation is on the [OeScript wiki][oescript-wiki].
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
