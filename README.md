@@ -8,7 +8,7 @@ OeScript
 [bintray]: https://bintray.com/navicore/maven/ "Bintray"
 [docker]: https://registry.hub.docker.com/repos/navicore/ "Docker Hub"
 
-###OeScript Tuple Space - Distributed, Asynchronous, Scalable
+###OeScript - Distributed, Asynchronous, Scalable
 
 [![Build Status](https://travis-ci.org/navicore/OeScript.svg?branch=master)](https://travis-ci.org/navicore/OeScript)
 [ ![Download](https://api.bintray.com/packages/navicore/maven/oescript_http/images/download.svg) ](https://bintray.com/navicore/maven/oescript-http/_latestVersion)
