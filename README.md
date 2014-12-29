@@ -1,7 +1,3 @@
-[ ![Download](https://api.bintray.com/packages/navicore/maven/oescript_core/images/download.svg) ](https://bintray.com/navicore/maven/oescript_core/_latestVersion)
-
-[![Build Status](https://travis-ci.org/navicore/OeScript.svg?branch=master)](https://travis-ci.org/navicore/OeScript)
-
 OeScript
 ========
 
@@ -9,6 +5,9 @@ OeScript
 [oescript-wiki]: https://github.com/navicore/oescript/wiki  "OeScript Wiki"
 
 ###OeScript Tuple Space - Distributed, Asynchronous, Scalable
+
+[![Build Status](https://travis-ci.org/navicore/OeScript.svg?branch=master)](https://travis-ci.org/navicore/OeScript)
+[ ![Download](https://api.bintray.com/packages/navicore/maven/oescript_http/images/download.svg) ](https://bintray.com/navicore/maven/oescript-http/_latestVersion)
 
 ***
 
@@ -28,7 +27,6 @@ OeScript
 An experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software.
 
 Notes about the library and architecture desicions are posted as [issues][decisions-blog] for now.
-
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
