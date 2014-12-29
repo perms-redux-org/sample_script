@@ -10,7 +10,17 @@ OeScript
 
 ###OeScript Tuple Space - Distributed, Asynchronous, Scalable
 
-_NOTE: no working code here yet, watch the project as work progresses starting Jan 1, 2015 - track the design now at the [OeScript wiki][oescript-wiki]._
+***
+
+**_Status:_**
+
+* _The OeScript software project is **UNDER CONSTRUCTION** and there is no usable product yet.  Watch these pages starting Jan 1, 2015 as OeScript gets designed and built._
+
+* _The sbt build system is in place now with full CI support via Travis CI and Bintray and Docker._
+
+* _NOTE: Track the design at the [OeScript wiki][oescript-wiki]._
+
+***
 
 An experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software.
 
