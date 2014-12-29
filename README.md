@@ -17,7 +17,7 @@ OeScript
 
 * _The sbt build system is in place now with full CI support via Travis CI and Bintray and Docker._
 
-* _NOTE: Track the design at the [OeScript wiki][oescript-wiki]._
+* _NOTE: Track the design and features on the [OeScript Wiki][oescript-wiki]._
 
 ***
 
@@ -28,7 +28,7 @@ An experimental re-implementation of OeScript using Scala and various nosql and 
 
 Notes about the library and architecture desicions are posted as [issues][decisions-blog].
 
-Documentation is on the [OeScript wiki][oescript-wiki].
+Documentation is on the [OeScript Wiki][oescript-wiki].
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
