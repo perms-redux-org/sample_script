@@ -4,6 +4,9 @@ OeScript
 [decisions-blog]: https://github.com/navicore/OeScript/issues?q=label%3Ablog+ "Decisions Blog"
 [oescript-wiki]: https://github.com/navicore/oescript/wiki  "OeScript Wiki"
 [talk-to-us]: https://github.com/navicore/OeScript/wiki/Talk-to-Us "Talk to Us"
+[travis-ci]: https://travis-ci.org/navicore/OeScript "Travis CI"
+[bintray]: https://bintray.com/navicore/maven/ "Bintray"
+[docker]: https://registry.hub.docker.com/repos/navicore/ "Docker Hub"
 
 ###OeScript Tuple Space - Distributed, Asynchronous, Scalable
 
@@ -16,7 +19,7 @@ OeScript
 
 * _The OeScript software project is **UNDER CONSTRUCTION** and there is no usable product yet.  Watch this repo starting Jan 1, 2015 as OeScript gets designed and built._
 
-* _The sbt build system is in place now with full CI support via Travis CI and Bintray and Docker._
+* _The sbt build system is in place now with full CI support via [Travis CI][travis-ci] and [Bintray][bintray] and [Docker][docker]._
 
 * _NOTE: Track the design and features on the [OeScript Wiki][oescript-wiki]._
 
