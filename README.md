@@ -22,25 +22,13 @@ OeScript
 
 ***
 
+<img src="https://github.com/navicore/OeScript/blob/master/docs/diagrams/tmp/space.png"
+ alt="Tuplespace" title="Tuplespace" align="right" />
+ 
 An experimental re-implementation of OeScript using Scala and various nosql and streaming cloud software.
 
 Notes about the library and architecture desicions are posted as [issues][decisions-blog] for now.
 
-For quick-start, see [below](#quick-start).
-
-More extensive documentation, when it exists, will be in the [OeScript Wiki][oescript-wiki].
-
-### Quick Start
-
-1. `./sbt`
-
-
-### Other
-
-```
-gem install travis
-travis login
-```
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
