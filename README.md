@@ -1,7 +1,7 @@
 OeScript
 ========
 
-[decisions-blog]: https://github.com/navicore/OeScript/labels/blog  "Decisions Blog"
+[decisions-blog]: https://github.com/navicore/OeScript/issues?q=label%3Ablog+ "Decisions Blog"
 [oescript-wiki]: https://github.com/navicore/oescript/wiki  "OeScript Wiki"
 
 ###OeScript Tuple Space - Distributed, Asynchronous, Scalable
