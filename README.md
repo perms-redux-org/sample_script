@@ -14,7 +14,7 @@ OeScript
 
 **_Status:_**
 
-* _The OeScript software project is **UNDER CONSTRUCTION** and there is no usable product yet.  Watch these pages starting Jan 1, 2015 as OeScript gets designed and built._
+* _The OeScript software project is **UNDER CONSTRUCTION** and there is no usable product yet.  Watch this repo starting Jan 1, 2015 as OeScript gets designed and built._
 
 * _The sbt build system is in place now with full CI support via Travis CI and Bintray and Docker._
 
