@@ -36,7 +36,7 @@ Notes about the library and tool dependencies and the architecture desicions are
 
 Documentation is on the [OeScript Wiki][oescript-wiki].
 
-If the project interests you, you want to help, or you have questions, [talk to us][talk-to-us] !
+If the project interests you, you want to help, or you have questions, then [talk to us][talk-to-us] !
 
 <a href='https://bintray.com/navicore/maven/oescript-core/view?source=watch' alt='Get automatic notifications about new "oescript-core" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
 
