@@ -28,7 +28,7 @@ OeScript
 <img src="https://github.com/navicore/OeScript/blob/master/docs/diagrams/tmp/space.png"
  alt="Tuplespace" title="Tuplespace" align="right" />
  
-An experimental re-implementation of [OeScript](https://github.com/navicore/OeScript/wiki/About) using Scala and various nosql and streaming cloud software.
+An experimental re-implementation of [OeScript](https://github.com/navicore/OeScript/wiki/About) using Scala and  large-scale data processing software.
 
 OeScript is a networked tuplespace [coordination language](http://en.wikipedia.org/wiki/Linda_(coordination_language)) implementation supporting "read", "write", "take", leases, and transactions, and with the additional feature of "attachments".
 
