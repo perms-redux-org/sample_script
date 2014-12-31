@@ -25,7 +25,7 @@ OeScript
 
 ***
 
-<img src="https://github.com/navicore/OeScript/blob/master/docs/diagrams/tmp/space.png"
+<img src="https://github.com/navicore/OeScript/blob/gh-pages/diagrams/out/space.png"
  alt="Tuplespace" title="Tuplespace" align="right" />
  
 An experimental re-implementation of [OeScript](https://github.com/navicore/OeScript/wiki/About) using Scala and  large-scale data processing software.
