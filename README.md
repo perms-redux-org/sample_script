@@ -30,7 +30,7 @@ OeScript
  
 An experimental re-implementation of [OeScript](https://github.com/navicore/OeScript/wiki/About) using Scala and  large-scale data processing software.
 
-OeScript is a networked tuplespace [coordination language](http://en.wikipedia.org/wiki/Linda_(coordination_language)) implementation supporting "read", "write", "take", leases, and transactions, and with the additional feature of "attachments".
+OeScript is server software with a tuplespace [coordination language](http://en.wikipedia.org/wiki/Linda_(coordination_language)) supporting "read", "write", "take", leases, and transactions, and with the additional feature of "attachments".
 
 Notes about the library and tool dependencies and the architecture desicions are posted as [issues][decisions-blog].
 
