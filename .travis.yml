@@ -12,7 +12,9 @@ scala:
 
 jdk:
 - openjdk7
+
 script:
 - sbt compile test
 
 
+build_image: shippable/minv2:beta
